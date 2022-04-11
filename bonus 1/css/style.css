@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #083b4c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    color: white;
+    font-size: 5rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #1389b2;
+    width: 6vw;
+    height: 6vw;
+    line-height: 6vw;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.3vw;
+}
