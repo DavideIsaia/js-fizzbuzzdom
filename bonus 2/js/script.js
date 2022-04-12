@@ -4,6 +4,9 @@
 // assegno fizzbuzz ai numeri che soddisfano entrambe le condizioni.
 // stampo i risultati in console.
 
+// BONUS 1 aggiungo la variabile per riempire le caselle solo una volta fuori dal ciclo for
+const row = document.querySelector('.row');
+
 for (let i = 1; i <=100; i++) {
 
     let fizzBuzz;
@@ -22,11 +25,6 @@ for (let i = 1; i <=100; i++) {
     // stampo in console
     console.log(fizzBuzz);
 
-    // BONUS
-
-    // aggiungo la variabile per riempire le caselle
-    const row = document.querySelector('.row');
-
-    // aggiungo una visualizzazione nell'html e la classe con lo stesso nome per il bonus 2
+    // BONUS 2 aggiungo una visualizzazione nell'html e la classe con lo stesso nome
     row.innerHTML += `<div class="box ${fizzBuzz}">${fizzBuzz}</div>` 
 }
